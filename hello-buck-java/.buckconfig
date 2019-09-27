@@ -8,3 +8,6 @@
   src_roots = /
   source_level = 6
   target_level = 6
+
+[tools]
+  javac_jar = javac-9+181-r4173-1.jar
