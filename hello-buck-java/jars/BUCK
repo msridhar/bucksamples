@@ -18,7 +18,7 @@ prebuilt_jar(
 
 prebuilt_jar(
     name = 'checker-qual',
-    binary_jar = 'checker-qual-2.11.1.jar',
+    binary_jar = 'checker-qual-2.11.0.jar',
     visibility = [ 'PUBLIC' ]
 )
 
