@@ -1,0 +1,11 @@
+prebuilt_jar(
+    name = 'auto-value',
+    binary_jar = 'auto-value-1.6.6.jar',
+    visibility = [ 'PUBLIC' ]
+)
+
+prebuilt_jar(
+    name = 'auto-value-annotations',
+    binary_jar = 'auto-value-annotations-1.6.6.jar',
+    visibility = [ 'PUBLIC' ]
+)
