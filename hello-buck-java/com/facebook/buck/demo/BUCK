@@ -17,8 +17,11 @@ java_library(
           "com.google.auto.value.processor.AutoAnnotationProcessor",
           "com.google.auto.value.processor.AutoOneOfProcessor",
           "com.google.auto.value.processor.AutoValueBuilderProcessor",
-          "com.google.auto.value.processor.AutoValueProcessor" ],
+          "com.google.auto.value.processor.AutoValueProcessor",
+          "org.checkerframework.checker.objectconstruction.ObjectConstructionChecker",
+          ],
 
-    annotation_processor_deps = [ '//jars:auto-value' ],
-    provided_deps = [ '//jars:auto-value-annotations' ],
+    annotation_processor_deps = [ '//jars:auto-value', '//jars:checker-framework', '//jars:object-construction-checker', '//jars:returnsrcvr-checker', '//jars:returnsrcvr-qual', '//jars:object-construction-qual', '//jars:spring-expression', '//jars:guava-jre', '//jars:auto-value-annotations' ],
+    provided_deps = [ '//jars:auto-value-annotations', '//jars:checker-qual', '//jars:returnsrcvr-qual', '//jars:object-construction-qual' ],
+    annotation_processor_params = [ 'nocheckjdk' ]
 )

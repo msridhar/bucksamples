@@ -9,3 +9,52 @@ prebuilt_jar(
     binary_jar = 'auto-value-annotations-1.6.6.jar',
     visibility = [ 'PUBLIC' ]
 )
+
+prebuilt_jar(
+    name = 'checker-framework',
+    binary_jar = 'checker-2.11.0.jar',
+    visibility = [ 'PUBLIC' ]
+)
+
+prebuilt_jar(
+    name = 'checker-qual',
+    binary_jar = 'checker-qual-2.11.1.jar',
+    visibility = [ 'PUBLIC' ]
+)
+
+prebuilt_jar(
+    name = 'returnsrcvr-qual',
+    binary_jar = 'returnsrcvr-qual-0.1.6.jar',
+    visibility = [ 'PUBLIC' ]
+)
+
+prebuilt_jar(
+    name = 'returnsrcvr-checker',
+    binary_jar = 'returnsrcvr-checker-0.1.6.jar',
+    visibility = [ 'PUBLIC' ]
+)
+
+prebuilt_jar(
+    name = 'object-construction-checker',
+    binary_jar = 'object-construction-checker-0.1.6.jar',
+    visibility = [ 'PUBLIC' ]
+)
+
+prebuilt_jar(
+    name = 'object-construction-qual',
+    binary_jar = 'object-construction-qual-0.1.6.jar',
+    visibility = [ 'PUBLIC' ]
+)
+
+prebuilt_jar(
+    name = 'spring-expression',
+    binary_jar = 'spring-expression-5.1.7.RELEASE.jar',
+    visibility = [ 'PUBLIC' ]
+)
+
+prebuilt_jar(
+    name = 'guava-jre',
+    binary_jar = 'guava-28.0-jre.jar',
+    visibility = [ 'PUBLIC' ]
+)
+    
